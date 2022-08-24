@@ -9,5 +9,27 @@
 }
 
 .cor-especial {
-    color: darkred;
+    color: darkred!important;
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.botao-cor-especial:hover {
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
 }
